@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.laggerlimited.shoestore.welcome.WelcomeFragment">
+    <!--ScrollView is used for smaller screens to display the fragment uniformly-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <!--ConstraintLayout is used for versatility and screen changes-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/welcomeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teal_200">
+
+            <TextView
+                android:id="@+id/welcomeTitleTextView"
+                style="@style/TitleStyle"
+                android:text="@string/welcome_title"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.20" />
+
+            <Button
+                android:id="@+id/InstructionButton"
+                style="@style/ButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instructions"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sloganTextView"
+                app:layout_constraintVertical_bias="0.90" />
+
+            <TextView
+                android:id="@+id/sloganTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/welcome_slogan_text_margin_top"
+                android:fontFamily="@font/diplomata_sc"
+                android:text="@string/welcome_slogan"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="@dimen/welcome_slogan_text_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/welcomeTitleTextView" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

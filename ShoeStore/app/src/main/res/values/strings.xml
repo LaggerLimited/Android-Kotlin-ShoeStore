@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_label">Email:</string>
+    <string name="password_label">Password:</string>
+    <string name="login">Login</string>
+    <string name="new_user">New User</string>
+    <string name="logo_image">Logo Image</string>
+    <string name="example_domain_com">example@domain.com</string>
+    <string name="password">password</string>
+    <string name="welcome_title">Welcome To Shoe App</string>
+    <string name="welcome_slogan">THE app for listing shoes</string>
+    <string name="instructions">Instructions</string>
+    <string name="instruction_title">How To Use The App</string>
+    <string name="instruction_list">Shoe List Includes:\n     &#8226; Shoe Name \n     &#8226; Company \n     &#8226; Size \n     &#8226; Description</string>
+    <string name="instruction_info">To add a new shoe tap the plus sign on the list screen</string>
+    <string name="shoe_list">Shoe List</string>
+    <string name="add_shoe_button">Add Shoe Button</string>
+    <string name="details_title">Add New Shoe</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="name_label">Name:</string>
+    <string name="company_label">Company:</string>
+    <string name="size_label">Size:</string>
+    <string name="description_label">Description:</string>
+    <string name="shoe_name">shoe name</string>
+    <string name="company">company</string>
+    <string name="zeros">00</string>
+    <string name="description">description</string>
+    <string name="fab_description">add button</string>
+    <string name="menu_item_title">Logout</string>
+</resources>
